@@ -4,7 +4,8 @@ This code uses pytesseract to convert images to text data, and then extracts the
 
 image to csv.ipynb contains a function called img_to_csv, that takes the image file name as an input (e.g. 'Image.PNG') and returns a dataframe called 'output'. 
 It also saves 'output' as 'output.csv' on your desktop.
-This function assumes that the tabular data on the receipt follows the PIMS structure (i.e. image contain tabular data with this order: payment date, quantity, description, net price).
+
+**This function assumes that the tabular data on the receipt follows the PIMS structure (i.e. image contain tabular data with this order: payment date, quantity, description, net price).**
 
 This function uses pytesseract as the OCR tool in order to convert images to textual data. 
 In order to run the function, you need to have tesseract-OCR and pytesseract installed on your device. 
